@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,windows,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,node
+# Created by https://www.toptal.com/developers/gitignore/api/macos,windows,xcode,node
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,xcode,node
 
 ### macOS ###
 # General
@@ -200,37 +200,21 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+### Xcode ###
+## User settings
+xcuserdata/
 
-node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
-*.local
+## Xcode 8 and earlier
+*.xcscmblueprint
+*.xccheckout
 
-/cypress/videos/
-/cypress/screenshots/
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-test-results/
-playwright-report/
-
-
-# End of https://www.toptal.com/developers/gitignore/api/macos,windows,node
+# End of https://www.toptal.com/developers/gitignore/api/macos,windows,xcode,node
